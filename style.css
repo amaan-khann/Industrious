@@ -130,6 +130,7 @@ video {
   background-color: rgba(27, 26, 26, 0.705);
 }
 .hero__text h2 {
+  padding-bottom: 2%;
   font-family: 'Oswald';
   font-size: 3.5rem;
 }
@@ -215,4 +216,107 @@ video {
   padding-top: 25px;
   font-family: 'Montserrat';
   text-align: center;
+}
+
+.quotes {
+  width: 100%;
+  height: 250px;
+  color: white;
+  background-image: linear-gradient(
+    rgba(206, 27, 40, 0.25),
+    rgba(206, 27, 40, 0.25)
+  );
+}
+
+.content {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding: 5% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content > h2 {
+  font-size: 3rem;
+  font-family: 'Oswald';
+}
+
+.content > p {
+  font-family: 'Montserrat';
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.testimonials {
+  width: 100%;
+  height: auto;
+  background-color: rgba(235, 235, 235, 0.938);
+}
+
+.cards {
+  width: 70%;
+  height: auto;
+  /* border: 2px solid black; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-one {
+  width: 280px;
+  height: 250px;
+  background-color: rgb(235, 235, 235);
+  padding: 25px;
+  margin-bottom: 7%;
+}
+
+.user-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-left: 5px solid darkgray;
+}
+
+.user-review > p {
+  font-family: 'Montserrat';
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 25px;
+  padding-left: 10%;
+  color: rgb(71, 70, 70);
+}
+
+.user-details {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.user-details > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.user-details > span {
+  font-family: 'Montserrat';
+  font-size: 0.7rem;
+}
+
+.user-details > span > i {
+  color: rgb(163, 13, 8);
+  font-weight: 600;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: #111111;
 }
